@@ -1,0 +1,39 @@
+{
+  "name": "predictor",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@airgap/beacon-sdk": "2.3.9",
+    "@chakra-ui/core": "0.8.0",
+    "@chakra-ui/icons": "latest",
+    "@chakra-ui/react": "^1.8.3",
+    "@emotion/core": "latest",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@taquito/beacon-wallet": "latest",
+    "emotion-theming": "latest",
+    "framer-motion": "^4.1.17",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-router-dom": "6.2.1",
+    "react-scripts": "4.0.2",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
